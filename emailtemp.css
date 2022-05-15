@@ -1,0 +1,120 @@
+body{
+    margin:0%;
+    padding:0%;
+}
+
+.container{
+    width: 100vw;
+    height:100vh;
+}
+h6{
+
+    padding-top: 50px;
+
+}
+
+button{
+   margin-left: 30px;
+   width:65%;
+   border-radius: 8px;
+}
+
+.nav-link{
+color: white;
+}
+
+.options{
+    padding-top: 30px;
+padding-left:10px;
+color: white; 
+font-weight: bold;
+}
+.card1{
+
+    background-color: rgba(49, 44, 44, 0.8);
+   
+}
+
+.card2{
+    
+    background-color: rgba(177, 154, 131, 0.671);
+    
+}
+
+.card3{
+    
+    background-color: rgba(249, 249, 249, 0.6);
+   
+}
+
+.full-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.name-box{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    
+
+}
+
+.message-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    padding-top:0px;
+    height:40px ;
+   
+}
+
+
+.time-box{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 40px;
+   
+}
+
+.second-box{
+
+  margin: 6px;
+  box-shadow: 0px -1px 8px 1px rgba(0,0,0,0.75);
+    background-color: white;
+}
+
+.trash-container{
+display: flex;
+flex-direction: row;
+justify-content: end;
+}
+
+
+.circle{
+width: 30px;
+height:30px;
+border-radius: 100px;
+margin:2%;
+border: 1px solid rgba(0, 0, 0, 0.55);
+text-align: center;
+padding-top: 12px;
+}
+
+
+@media screen and (max-width: 625px){
+    
+
+    .circle{
+      border: 0px; 
+    }
+    }
