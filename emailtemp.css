@@ -7,6 +7,8 @@ body{
     width: 100vw;
     height:100vh;
 }
+
+
 h6{
 
     padding-top: 50px;
@@ -68,7 +70,7 @@ font-weight: bold;
 
 .message-box{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: start;
     align-items: flex-start;
     padding-top:0px;
@@ -88,8 +90,6 @@ font-weight: bold;
 
 .second-box{
 
-  margin: 4px;
-  box-shadow: 0px -1px 8px 1px rgba(0,0,0,0.75);
   background-color: white;
 }
 
